@@ -26,6 +26,15 @@ Meias
 * grep '\*[a-z]\*' meias.txt
 * grep -v '\*[a-z]\*' meias.txt
 
+*  egrep '[0-9]+' meias.txt
+*  egrep -o '[0-9]+' meias.txt
+*  egrep -o '[0-9]{1}' meias.txt
+*  egrep -o '[0-9]{2}' meias.txt
+*  egrep -o '[0-9]{3}' meias.txt
+*  egrep -qo '[0-9]{2}' meias.txt && echo "Achou!"
+*  egrep -qo '[0-9]{3}' meias.txt || echo "Não achou!"
+
+
 * grep '?$' meias.txt
 * grep -v '?$' meias.txt
 

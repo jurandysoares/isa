@@ -32,8 +32,8 @@ Sim?
 * grep -w sim meias.txt
 * grep -wi sim meias.txt
 
-Texto?
-------
+Destaque?
+---------
 
 * grep '\*[a-z]\*' meias.txt
 * grep -v '\*[a-z]\*' meias.txt
@@ -49,7 +49,7 @@ Número?
 *  egrep -qo '[0-9]{2}' meias.txt && echo "Achou!"
 *  egrep -qo '[0-9]{3}' meias.txt || echo "Não achou!"
 
-Palavras?
+Palavra?
 ---------
 
 * egrep '\b[a-z]{1}\b' meias.txt

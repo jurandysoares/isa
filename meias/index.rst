@@ -23,8 +23,8 @@ Meias
 * grep -w sim meias.txt
 * grep -wi sim meias.txt
 
-* grep '*[a-z]*' meias.txt
-* grep -v '*[a-z]*' meias.txt
+* grep '\*[a-z]\*' meias.txt
+* grep -v '\*[a-z]\*' meias.txt
 
 * grep '?$' meias.txt
 * grep -v '?$' meias.txt

@@ -98,5 +98,7 @@ All you need to do, to execute the script is::
 
   ./hello-world.sh
   Hello, World!
+  
+Ainda não usa Linux? Experimente desenvolver e executar scripts em https://www.tutorialspoint.com/execute_bash_online.php
 
 

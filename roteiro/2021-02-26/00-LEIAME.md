@@ -10,3 +10,5 @@
    - `cd ~/isa/roteiro/2021-02-26/`
 6. Listar as atividades do dia
    - `ls`
+7. Atualizar os arquivos recém publicados pelo professor
+   - `git pull`

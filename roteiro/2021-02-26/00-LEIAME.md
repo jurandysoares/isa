@@ -12,4 +12,29 @@
    - `ls`
 7. Atualizar os arquivos recém publicados pelo professor
    - `git pull`
-8. Instalar o  
+8. Instalar o *asciinema*
+   - `apt update`
+   - `apt install asciinema`
+9. Testar o *asciinema*
+   - Execute: `asciinema rec -t "1, 2, 3, testando"`
+   - Você verá a mensagem:
+     ```
+     asciinema: recording asciicast to /tmp/tmpcphny1sd-ascii.cast
+     asciinema: press <ctrl-d> or type "exit" when you're done
+     ```
+   - `# Digitar vários comandos`
+   - Execute: `exit`
+     ```
+     asciinema: recording finished
+     asciinema: press <enter> to upload to asciinema.org, <ctrl-c> to save locally
+     ```
+   - Pressione a tecla `ENTER`
+10. Testando o *asciinema* mais uma vez
+   - `apt install bat`
+   - `apt install figlet cowsay`
+  
+11. Baixar roteiro passado pelo professor
+    - `cd`
+    - `wget https://mange.ifrn.edu.br/roteiros/isa/isa-2021-02-26.sh`
+    - `. isa-2021-02-26.sh`
+

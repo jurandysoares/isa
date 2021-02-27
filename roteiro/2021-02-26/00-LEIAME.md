@@ -12,3 +12,4 @@
    - `ls`
 7. Atualizar os arquivos recém publicados pelo professor
    - `git pull`
+8. Instalar o  
